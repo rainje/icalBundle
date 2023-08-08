@@ -43,7 +43,7 @@ class Factory
      *
      * @return Calendar
      */
-    public function createCalendar()
+    public function createCalendar(): Calendar
     {
         $calendar = new Calendar();
 
@@ -63,7 +63,7 @@ class Factory
      *
      * @return CalendarEvent
      */
-    public function createCalendarEvent()
+    public function createCalendarEvent(): CalendarEvent
     {
         $calendarEvent = new CalendarEvent();
 
@@ -75,7 +75,7 @@ class Factory
      *
      * @return CalendarAlarm
      */
-    public function createCalendarAlarm()
+    public function createCalendarAlarm(): CalendarAlarm
     {
         $calendarAlarm = new CalendarAlarm();
 
@@ -87,7 +87,7 @@ class Factory
      *
      * @return CalendarFreeBusy
      */
-    public function createCalendarFreeBusy()
+    public function createCalendarFreeBusy(): CalendarFreeBusy
     {
         $calendarFreeBusy = new CalendarFreeBusy();
 
@@ -99,7 +99,7 @@ class Factory
      *
      * @return CalendarTodo
      */
-    public function createCalendarTodo()
+    public function createCalendarTodo(): CalendarTodo
     {
         $calendarTodo = new CalendarTodo();
 
@@ -111,7 +111,7 @@ class Factory
      *
      * @return Attendee
      */
-    public function createAttendee()
+    public function createAttendee(): Attendee
     {
         $attendee = new Attendee(new Formatter());
 
@@ -123,7 +123,7 @@ class Factory
      *
      * @return Organizer
      */
-    public function createOrganizer()
+    public function createOrganizer(): Organizer
     {
         $organizer = new Organizer(new Formatter());
 
@@ -135,7 +135,7 @@ class Factory
      *
      * @return Geo
      */
-    public function createGeo()
+    public function createGeo(): Geo
     {
         $geo = new Geo();
 
@@ -147,7 +147,7 @@ class Factory
      *
      * @return Location
      */
-    public function createLocation()
+    public function createLocation(): Location
     {
         $location = new Location();
 
@@ -159,7 +159,7 @@ class Factory
      *
      * @return RecurrenceRule
      */
-    public function createRecurrenceRule()
+    public function createRecurrenceRule(): RecurrenceRule
     {
         $recurrenceRule = new RecurrenceRule(new Formatter());
 

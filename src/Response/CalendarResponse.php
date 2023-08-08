@@ -48,7 +48,7 @@ class CalendarResponse extends Response
      *
      * @return array
      */
-    protected function getDefaultHeaders()
+    protected function getDefaultHeaders(): array
     {
         $headers = array();
 

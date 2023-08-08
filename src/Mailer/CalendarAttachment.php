@@ -14,7 +14,7 @@ use Jsvrcek\ICS\CalendarExport;
  * @package Welp\IcalBundle\Mailer
  * @author  Titouan BENOIT <titouan@welp.today>
  */
-class CalendarAttachment extends \Swift_Attachment
+class CalendarAttachment
 {
     /**
      * Calendar attachment constructor
