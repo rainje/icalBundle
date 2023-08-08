@@ -1,5 +1,5 @@
 {
-    "name": "welp/ical-bundle",
+    "name": "rainje/ical-bundle",
     "description": "Symfony Bundle to manage .ics iCal file (creating and eventually reading)",
     "version": "1.0.2",
     "type": "symfony-bundle",
