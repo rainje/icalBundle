@@ -21,7 +21,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Welp\\IcalBundle\\": "rainje/ical-bundle/src/"
+            "Welp\\IcalBundle\\": "src/"
         }
     },
     "require": {
