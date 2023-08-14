@@ -30,8 +30,8 @@ class Configuration implements ConfigurationInterface
         // more information on that topic.
 
         $rootNode->children()
-            ->scalarNode('default_prodid')->defaultValue('-//WelpIcalBundle//Calendar App//EN')->end()
-            ->scalarNode('default_timezone')->defaultValue('America/Puerto_Rico')->end();
+            ->scalarNode('default_prodid')->defaultValue('-//WelpIcalBundle//Calendar App//FR')->end()
+            ->scalarNode('default_timezone')->defaultNull()->end();
 
         return $treeBuilder;
     }
