@@ -1,9 +1,9 @@
 {
-    "name": "welp/ical-bundle",
+    "name": "rainje/ical-bundle",
     "description": "Symfony Bundle to manage .ics iCal file (creating and eventually reading)",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "type": "symfony-bundle",
-    "homepage": "https://github.com/welpdev/icalBundle",
+    "homepage": "https://github.com/rainje/icalBundle",
     "license": "MIT",
     "keywords": [
         "Symfony",
